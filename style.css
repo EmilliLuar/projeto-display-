@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+* {
+    box-sizing: border-box;
+    /*ativa modelo de caixa */
+    margin: 0%;
+    /*regula a margem exterior */
+    padding: 0%;
+    /*regula o espaçamento interno */
+}
+
+body {
+    text-align: center;
+    /*centralizar td o conteudo do site */
+    background-color: rgb(255,1,0)  ;
+}
+header { /*cabeçalho do site */
+    background-color: black  ;
+color:  white;
+font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 25px;
+}
+
+nav a { /*parte de navegação do site */
+color: white;
+text-decoration: none; /*tir ao sublunhado */
+display: inline-block; /*ativa o display*/
+margin: 10px; /* espaço entre ancoras */
+padding: 10px 20px ; /* espaço interno */
+background-color:black ; /*cor de fundo da ancora */
+border-radius: 5px; /*borda do menu */ 
+}
+  
+nav a:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.card {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.card img {
+    width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#personagens h2 { /*sessão de personagem*/
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+#personagens{
+    background-image: url(./imagens/plain-black-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*backgroud size mexe no tamanho da img de plano de fundo | cover estica a img | contain mantem o tamanho original | backgroud-repeat tira a repetição (no-repeat) ou coloca-a  | backgroud position altera a posição da img  */
+}
+p {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.card-msc img {
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.card-msc {
+    display: inline-block;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+ 
+    color: black;
+    border-radius: 5px; 
+}
