@@ -1,30 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
-header { /*cabeçalho do site */
-    background-color: black  ;
-color:  white;
-font-family: "Vast Shadow", serif;
-  font-weight: 400;
-  font-style: normal;
-font-size: 25px;
+header {
+    /*cabeçalho do site */
+    background-color: black;
+    color: white;
+    font-family: "Vast Shadow", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
 }
 
-nav a { /*parte de navegação do site */
-color: white;
-text-decoration: none; /*tir ao sublinhado */
-display: inline-block; /*ativa o display*/
-margin: 10px; /* espaço entre ancoras */
-padding: 10px 20px ; /* espaço interno */
-background-color:black ; /*cor de fundo da ancora */
-border-radius: 5px; /*borda do menu */ 
+nav a {
+    /*parte de navegação do site */
+    color: white;
+    text-decoration: none;
+    /*tir ao sublinhado */
+    display: inline-block;
+    /*ativa o display*/
+    margin: 10px;
+    /* espaço entre ancoras */
+    padding: 10px 20px;
+    /* espaço interno */
+    background-color: black;
+    /*cor de fundo da ancora */
+    border-radius: 5px;
+    /*borda do menu */
 }
-  
+
 nav a:hover {
     background-color: rgb(31, 30, 30);
 }
+
 body {
     text-align: center;
     /*centralizar td o conteudo do site */
-    background-color: rgb(255,1,0)  ;
+    background-color: rgb(255, 1, 0);
 }
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#elenco {
+    background-color: black;
+    padding: 50px 20px;
+    color: white;
+}
+
+#elenco h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.container-personagens {
+    /* sessão dos personagens, imagens e textos alterando seu alinhamento e estilo  */
+    display: flex;
+    /*ativar o display do tipo flexbox */
+    flex-wrap: wrap;
+    /*permite quebrar a liha se n houver espaço*/
+    gap: 30px;
+    /*espaçamento entre o card*/
+    justify-content: center;
+    /*centralizar no eixo principal*/
+    align-items: stretch;
+    /*deixa tds do msm tamanho*/
+}
+
+/*alterar estilo dos cards*/
+.item {
+    width: 250px;
+    background-color: rgb(255, 1, 0);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    /*ativar o display*/
+    flex-direction: column;
+    
+}
+
