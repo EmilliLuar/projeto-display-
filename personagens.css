@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+header { /*cabeçalho do site */
+    background-color: black  ;
+color:  white;
+font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+font-size: 25px;
+}
+
+nav a { /*parte de navegação do site */
+color: white;
+text-decoration: none; /*tir ao sublinhado */
+display: inline-block; /*ativa o display*/
+margin: 10px; /* espaço entre ancoras */
+padding: 10px 20px ; /* espaço interno */
+background-color:black ; /*cor de fundo da ancora */
+border-radius: 5px; /*borda do menu */ 
+}
+  
+nav a:hover {
+    background-color: rgb(31, 30, 30);
+}
+body {
+    text-align: center;
+    /*centralizar td o conteudo do site */
+    background-color: rgb(255,1,0)  ;
+}

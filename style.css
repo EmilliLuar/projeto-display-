@@ -25,7 +25,7 @@ font-size: 25px;
 
 nav a { /*parte de navegação do site */
 color: white;
-text-decoration: none; /*tir ao sublunhado */
+text-decoration: none; /*tir ao sublinhado */
 display: inline-block; /*ativa o display*/
 margin: 10px; /* espaço entre ancoras */
 padding: 10px 20px ; /* espaço interno */
@@ -81,15 +81,33 @@ p {
 .card-msc img {
     width: 300px;
     height: 300px;
-    border-radius: 5px;
+    border-radius:  5px;
+    padding: 25px;
+    
 }
 
 .card-msc {
     display: inline-block;
-    width: 250px;
     margin: 20px;
     padding: 20px;
- 
     color: black;
     border-radius: 5px; 
+    text-align: center;
+   
 }
+
+footer {
+width: 100%;
+height: 300px;
+background-color: black;
+color: white;
+
+
+}
+ a {
+    text-decoration: none;
+ }
+
+ ul {
+    color: white;
+ }
