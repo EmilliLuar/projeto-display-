@@ -38,12 +38,6 @@ body {
     background-color: rgb(255, 1, 0);
 }
 
-.item img {
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-}
-
 #elenco {
     background-color: black;
     padding: 50px 20px;
@@ -79,7 +73,193 @@ body {
     padding: 20px;
     display: flex;
     /*ativar o display*/
-    flex-direction: column;
-    
+    flex-direction: column; /*muda a dirção dos eixos principais*/
+    justify-content: space-between;
+    transition: opacity 1s ease 0s;
+ 
 }
+.item:hover{
+    opacity: 1;
+    box-shadow: 7px 5px 13px 6px #5b0101;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item p{ /*mudança de estilo no paragrafo*/
+  color: white;  /*cor da fonte */
+  font-weight: bold; /*deixando em negrito , alterando a largura da fonte*/
+  margin-bottom: 10px; /*deixando um espaço entre o paragrafo e o texto abaixo*/
+  opacity: 0.4;
+
+}
+  
+.item h3{ /*mudança de estilo no subtitulo*/
+    color: black;
+    font-family:  "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+.tag1 {
+    color: white ;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:purple ;
+}
+
+.tag2 {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:lightslategrey;
+}
+.tag3 {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: blue;
+}
+.tag4 {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:  orangered ;
+}
+.tag5 {
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(230, 59, 87);
+}
+.tag6 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:darkcyan ;
+}
+.tag7 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(103, 141, 13) ;
+}
+.tag8 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(3, 5, 128);
+}
+.tag9 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(240, 88, 202) ;
+}
+.tag10 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(81, 134, 212) ;
+}
+.tag11 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(247, 73, 4) ;
+}
+.tag12 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(34, 206, 212);
+}
+.tag13 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: rgb(95, 0, 24);
+}
+.tag14 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(139, 76, 129) ;
+}
+.tag15 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(112, 0, 0) ;
+}
+.tag16 {
+    color:white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    background-color:rgb(233, 207, 64) ;
+}
+
+
 
